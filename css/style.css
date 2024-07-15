@@ -1,0 +1,10 @@
+.left-side > img {
+  width: 400px;
+  height: 700px;
+}
+
+h1 img {
+  background: black;
+  height: 100px;
+  width: 100px;
+}
