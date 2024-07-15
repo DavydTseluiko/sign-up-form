@@ -1,10 +1,47 @@
-.left-side > img {
-  width: 400px;
-  height: 700px;
+@font-face {
+  font-family: "Norse";
+  src: url("../font/Norse-Bold.otf");
+}
+
+body {
+  display: flex;
+  gap: 50px;
+}
+
+.left-side {
+  position: relative;
+}
+
+.background-image {
+  width: max(300px, 30vw);
+  height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  top: 10%;
+  left: 0;
+
+  color: #fff;
+
+  width: 100%;
+  background-color: rgba(0, 0, 0, 45%);
+  padding: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo span {
+  font-family: "Norse", sans-serif;
+  font-size: 100px;
+
+  position: relative;
+  top: 10px;
 }
 
 h1 img {
-  background: black;
   height: 100px;
-  width: 100px;
+  width: auto;
 }
