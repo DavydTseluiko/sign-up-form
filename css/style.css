@@ -6,6 +6,10 @@
 body {
   display: flex;
   gap: 50px;
+
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .left-side {
@@ -44,4 +48,17 @@ body {
 h1 img {
   height: 100px;
   width: auto;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  right: calc(50% - 84px);
+
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 14px;
+}
+
+.copyright a {
+  color: inherit;
 }
