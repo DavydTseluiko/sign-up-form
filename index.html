@@ -28,41 +28,50 @@
       </p>
     </div>
     <div class="right-side">
-      <h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad alias
-        corrupti tempora repudiandae ea beatae quae consequuntur itaque. Quia,
-        vero? Velit nulla quibusdam reiciendis consequatur enim nostrum rerum
-        optio doloremque.
+      <h2 class="title">
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up now to get
+        started.
       </h2>
-      <h2>Lorem ipsum dolor sit.</h2>
+      <h2 class="subtitle">You know you want to.</h2>
       <form action="#" method="get">
         <div class="background">
           <h3>Let's do this!</h3>
-          <div class="form-first-row">
-            <label for="fname">FIRST NAME</label>
-            <input type="text" name="fname" id="fname" />
+          <div class="form-row">
+            <div>
+              <label for="fname">FIRST NAME</label>
+              <input type="text" name="fname" id="fname" />
+            </div>
 
-            <label for="lname">LAST NAME</label>
-            <input type="text" name="lname" id="lname" />
+            <div>
+              <label for="lname">LAST NAME</label>
+              <input type="text" name="lname" id="lname" />
+            </div>
           </div>
-          <div class="form-second-row">
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email" />
+          <div class="form-row">
+            <div>
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" />
+            </div>
 
-            <label for="phone-number">PHONE NUMBER</label>
-            <input type="tel" name="phone-number" id="phone-number" />
+            <div>
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="tel" name="phone-number" id="phone-number" />
+            </div>
           </div>
-          <div class="form-third-row">
-            <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password" required />
+          <div class="form-row">
+            <div>
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password"
+              pattern="(?=.*\d)(?=.*[a-z]).{8,}" required />
+            </div>
 
-            <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input
-              type="password"
-              name="confirm-password"
+            <div>
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" name="confirm-password"
               id="confirm-password"
-              required
-            />
+              pattern="(?=.*\d)(?=.*[a-z]).{8,}" required />
+            </div>
           </div>
         </div>
         <button class="create-account">Create Account</button>
